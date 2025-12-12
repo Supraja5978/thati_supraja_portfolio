@@ -1,0 +1,13 @@
+.projects-grid{ 
+    display:grid; 
+    grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); 
+    gap:14px; 
+
+}
+.project-card{ 
+    background:linear-gradient(180deg, #ffffff05, #ffffff02); 
+    padding:14px; 
+    border-radius:10px; 
+    border:1px solid rgba(156, 13, 13, 0.03); 
+    background-color: rgba(255, 255, 255, 0.281);
+}

@@ -1,0 +1,126 @@
+:root{
+    --bg:#0f1113;
+    --surface:#111317;
+    --card: #0f1417;
+    --muted: #9aa3ab;
+    --text: #ffffff;
+    --glow: rgba(96,165, 250, 0.12);
+}
+*{
+    box-sizing: border-box;
+}
+body, html, #root{
+    height: 100%;
+    margin: 0;
+    font-family: Inter, "Segoe UI", Roboto, system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text);
+}
+.about-section{
+    padding: 64px 20px;
+    background: linear-gradient(180deg,rgba(255,255,255,0.015), transparent);
+    min-height: 100vh;
+}
+.section-title{
+    font-size: 28px;
+    text-align: center;
+    margin: 0 0 10px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: 0.2px;
+}
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+.about-text{
+    background: linear-gradient(180deg, rgba(255,255,255,0.02, rgba(255,255,255,0.1)));
+    border:1px solid rgba(255,255,255,0.03);
+    box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+    border-radius: 12px;
+    padding: 26px,28px;
+    margin: 0 auto 34px;
+    color: --var(text);
+    line-height: 1.8;
+}
+.about-text p{
+    font-size: 16.5px;
+    margin: 0;
+    color: #e6eef8;
+    opacity: 0.95;
+}
+
+.sub-heading{
+    font-size: 22px;
+    margin: 26px 0 14px;
+    font-weight: 600;
+    color: var(--text);
+    display: block;
+    border-left: 4px solid var(--accent);
+    padding-left: 12px;
+    background: transparent;
+    border-radius: 6px;
+}
+.skills-list{ 
+    display:block; 
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0 28px;
+}
+.skill-item{
+    background: rgba(255,255,255,0.02);
+    border:1px solid rgba(255,255,255,0.03);
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #dbeafe;
+    box-shadow: 0 6px 18px var(--glow);
+    transition: transfor .18s ease, box-shadow .18s ease;
+}
+.skill-item:hover{
+    transform: translate(-4px);
+    box-shadow: 0 10px 30px rgba(96, 165, 250, 0.12);
+}
+.skills-list .skill-item {
+  display: block;   /* forces new line */
+  margin-bottom: 6px;
+}
+.exp-card, .edu-card{
+    background: linear-gradient(180deg, rgba(255,255,255,255,0.015));
+    border:1px solid rgba(255,255,255,0.035);
+    padding: 20px 22px;
+    border-radius: 12px;
+    margin: 18px 0;
+    box-shadow: 0 10px, 30px rgba(2,6, 23,0.6);
+}
+.exp-card h4, .edu-card h4{
+    margin: 0 0 6px;
+    font-size: 18px;
+    color: var(--text);
+    font-weight: 700;
+}
+.exp-card p, .edu-card p{
+    margin: 0 0 10px;
+    color: var(--muted);
+    font-size: 14px;
+}
+.exp-card ul, .edu-card ul{
+    margin: 10px, 0, 0;
+    padding-left: 18px;
+    color: #d8e7ff;
+}
+
+.exp-card ul li, .edu-card ul ,li{
+    margin-bottom: 8px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.bullet-list{
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+    color: #ffffff;
+}
+.bullet-list li{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
