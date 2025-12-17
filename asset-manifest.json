@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/thati_supraja_portfolio/static/css/main.1b690667.css",
-    "main.js": "/thati_supraja_portfolio/static/js/main.c4c7d720.js",
+    "main.js": "/thati_supraja_portfolio/static/js/main.08d2aa6c.js",
     "static/js/453.ececc0a5.chunk.js": "/thati_supraja_portfolio/static/js/453.ececc0a5.chunk.js",
     "static/media/Thati_Supraja_Photograph.jpg": "/thati_supraja_portfolio/static/media/Thati_Supraja_Photograph.a68ea4e51a42184cfd13.jpg",
     "index.html": "/thati_supraja_portfolio/index.html",
     "main.1b690667.css.map": "/thati_supraja_portfolio/static/css/main.1b690667.css.map",
-    "main.c4c7d720.js.map": "/thati_supraja_portfolio/static/js/main.c4c7d720.js.map",
+    "main.08d2aa6c.js.map": "/thati_supraja_portfolio/static/js/main.08d2aa6c.js.map",
     "453.ececc0a5.chunk.js.map": "/thati_supraja_portfolio/static/js/453.ececc0a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b690667.css",
-    "static/js/main.c4c7d720.js"
+    "static/js/main.08d2aa6c.js"
   ]
 }
